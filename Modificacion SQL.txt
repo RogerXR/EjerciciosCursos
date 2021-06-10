@@ -1,4 +1,6 @@
 --- realizo el conteo de los registros para las duplicidades
- select  numero_poliza ,  cobertura_cnsf , count  (  *)     from  EMIAI_X_2020
- group by 1, 2 
- having count  (  *)   >1
+ select  numero_poliza ,  cobertura_cnsf as cob ,    auto  ,  count  (  *)     from  EMIAI_X_2020
+ group by 1, 2  , 3
+ having count  (  *)   >1  ; 
+
+select * from emia ;  
