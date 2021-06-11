@@ -19,3 +19,5 @@ select * from emia  where mes_contable = 2021
 ---genero un error al hacer el comit ..adrede.. por que modifique  desde la web
 
  
+Modificacion desde el git remote --  
+se realiza la prueba
