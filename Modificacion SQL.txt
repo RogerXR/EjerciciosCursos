@@ -17,3 +17,5 @@ select * from emia  where mes_contable = 2021
 1a modificacion en la consola para ver el  git status 
 
  
+Modificacion desde el git remote --  
+se realiza la prueba
